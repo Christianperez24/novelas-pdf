@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO META TAGS ===================== -->
+  <title>NovelaHub — Descarga Novelas Web en PDF Gratis | Fantasía, Acción, Romance</title>
+  <meta name="description" content="Descarga cientos de novelas web traducidas al español en PDF. Filtra por Fantasía, Acción, Romance, Sistema y Cultivación. Lectura offline, descarga por tomos y rangos de capítulos. Actualizaciones diarias." />
+  <meta name="keywords" content="novelas web, novelas en PDF, novelas chinas, novelas japonesas, light novel, wuxia, xianxia, fantasía, acción, romance, sistema, cultivación, descarga gratis, español, novelas traducidas" />
+  <meta name="author" content="NovelaHub" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="theme-color" content="#0a0a12" />
+  <link rel="canonical" href="https://tusuario.github.io/novelashub/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="NovelaHub" />
+  <meta property="og:title" content="NovelaHub — Descarga Novelas Web en PDF Gratis" />
+  <meta property="og:description" content="Cientos de novelas web traducidas al español en PDF. Filtra por género, lee la sinopsis y descarga por tomos o rangos de capítulos." />
+  <meta property="og:url" content="https://tusuario.github.io/novelashub/" />
+  <meta property="og:image" content="https://picsum.photos/seed/novelahub/1200/630" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NovelaHub — Novelas Web en PDF Gratis" />
+  <meta name="twitter:description" content="Descarga novelas web traducidas al español en PDF. Fantasía, Acción, Romance, Sistema y Cultivación." />
+  <meta name="twitter:image" content="https://picsum.photos/seed/novelahub/1200/630" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Structured Data (JSON-LD) para SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NovelaHub",
+    "url": "https://tusuario.github.io/novelashub/",
+    "description": "Descarga novelas web traducidas al español en PDF.",
+    "inLanguage": "es-ES",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tusuario.github.io/novelashub/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="NovelaHub inicio">
+        <span class="logo-icon">📚</span>
+        <span class="logo-text">Novela<span class="accent">Hub</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#catalogo" data-filter="Fantasía">Fantasía</a>
+        <a href="#catalogo" data-filter="Acción">Acción</a>
+        <a href="#catalogo" data-filter="Romance">Romance</a>
+        <a href="#catalogo" data-filter="Sistema">Sistema</a>
+        <a href="#catalogo" data-filter="Cultivación">Cultivación</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Actualizaciones diarias
+      </div>
+      <h1 class="hero-title">
+        Tu biblioteca de <span class="gradient-text">novelas web</span><br />
+        en PDF, lista para descargar
+      </h1>
+      <p class="hero-subtitle">
+        Cientos de novelas traducidas al español. Filtra por género, lee la sinopsis
+        y descarga por tomos o rangos de capítulos. Sin registro, sin límites.
+      </p>
+
+      <!-- Search Bar -->
+      <div class="search-wrap">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Busca por título, género o palabra clave…"
+            aria-label="Buscar novelas"
+            autocomplete="off"
+          />
+          <button class="search-clear" id="searchClear" aria-label="Limpiar búsqueda" hidden>✕</button>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats" id="heroStats">
+        <div class="stat">
+          <span class="stat-num" data-count="0">0</span>
+          <span class="stat-label">Novelas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="0">0</span>
+          <span class="stat-label">Capítulos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="0">0</span>
+          <span class="stat-label">Géneros</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="0">0</span>
+          <span class="stat-label">Descargas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CATALOG ===================== -->
+  <main class="catalog" id="catalogo">
+    <div class="container">
+
+      <!-- Filters bar -->
+      <div class="filters-bar">
+        <div class="filters-left">
+          <button class="chip active" data-genre="all">Todos</button>
+          <button class="chip" data-genre="Fantasía">Fantasía</button>
+          <button class="chip" data-genre="Acción">Acción</button>
+          <button class="chip" data-genre="Romance">Romance</button>
+          <button class="chip" data-genre="Sistema">Sistema</button>
+          <button class="chip" data-genre="Cultivación">Cultivación</button>
+        </div>
+
+        <div class="filters-right">
+          <div class="view-toggle" role="group" aria-label="Cambiar vista">
+            <button class="view-btn active" data-view="grid" aria-label="Vista cuadrícula">
+              <svg viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </button>
+            <button class="view-btn" data-view="list" aria-label="Vista lista">
+              <svg viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="4" width="18" height="3" rx="1"/><rect x="3" y="10.5" width="18" height="3" rx="1"/><rect x="3" y="17" width="18" height="3" rx="1"/></svg>
+            </button>
+          </div>
+
+          <label class="sort-wrap">
+            <span class="sort-label">Ordenar:</span>
+            <select id="sortSelect" aria-label="Ordenar novelas">
+              <option value="recent">Recientes</option>
+              <option value="popular">Más populares</option>
+              <option value="az">A - Z</option>
+              <option value="chapters">Más capítulos</option>
+              <option value="rating">Mejor valoradas</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <!-- Results count -->
+      <div class="results-info">
+        <span id="resultsCount">Mostrando todas las novelas</span>
+      </div>
+
+      <!-- Novels grid -->
+      <div class="novels-grid" id="novelsGrid" aria-live="polite"></div>
+
+      <!-- Empty state -->
+      <div class="empty-state" id="emptyState" hidden>
+        <div class="empty-icon">🔍</div>
+        <h3>No se encontraron novelas</h3>
+        <p>Prueba con otra palabra clave o cambia los filtros.</p>
+        <button class="btn btn-primary" id="resetFilters">Limpiar filtros</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===================== MODAL ===================== -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" id="novelModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+      <div class="modal-body" id="modalBody"><!-- Contenido inyectado por JS --></div>
+    </div>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <a href="#" class="logo">
+          <span class="logo-icon">📚</span>
+          <span class="logo-text">Novela<span class="accent">Hub</span></span>
+        </a>
+        <p class="footer-desc">Tu biblioteca de novelas web en PDF, traducidas al español. Descarga sin límites y disfruta offline.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Géneros</h4>
+        <ul>
+          <li><a href="#catalogo" data-filter="Fantasía">Fantasía</a></li>
+          <li><a href="#catalogo" data-filter="Acción">Acción</a></li>
+          <li><a href="#catalogo" data-filter="Romance">Romance</a></li>
+          <li><a href="#catalogo" data-filter="Sistema">Sistema</a></li>
+          <li><a href="#catalogo" data-filter="Cultivación">Cultivación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#catalogo">Catálogo completo</a></li>
+          <li><a href="#">Política de contenido</a></li>
+          <li><a href="#">DMCA</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="social-row">
+          <a href="#" aria-label="Telegram" class="social">✈️</a>
+          <a href="#" aria-label="Discord" class="social">🎮</a>
+          <a href="#" aria-label="WhatsApp" class="social">💬</a>
+          <a href="#" aria-label="YouTube" class="social">▶️</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> NovelaHub — Hecho con ❤️ para lectores. Las novelas pertenecen a sus respectivos autores.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
